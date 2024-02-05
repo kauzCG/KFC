@@ -1,0 +1,41 @@
+.section2_wrapper{
+    position: relative;
+    padding-top: 60px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.section2_container{
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.section2_container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2_titulo{
+    background-color: #FFC71F;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+:root{
+    --swiper-navigation-color:red;
+    --swiper-navigation-size: 30px !important;
+}
+
+.section_img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}

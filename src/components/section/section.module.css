@@ -1,0 +1,8 @@
+.section_wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section_img{
+    object-fit: cover;
+}

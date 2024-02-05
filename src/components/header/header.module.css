@@ -1,0 +1,107 @@
+.header_wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.header {
+  background-color: #bc0000;
+  position: relative;
+}
+
+.LogoButton {
+  background-color: transparent;
+  border: transparent;
+}
+
+.ul_wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.header_li {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2.1px;
+}
+
+.btn_wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn_login {
+  border-radius: 10px;
+  background: white;
+  padding: 7px 30px;
+  color: black;
+  letter-spacing: 0px;
+}
+
+#buttonMobile {
+  display: none;
+}
+
+.navLink{
+  color: white;
+}
+.navLink:hover{
+  color: black;
+}
+
+.btn_login:hover{
+  color: white;
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  .header_wrapper{
+    padding-right: 10px;
+  }
+  #buttonMobile {
+    display: block;
+    background-color: transparent;
+    border: transparent;
+  }
+  #Icons {
+    width: 20px;
+    height: 20px;
+  }
+  .btn_wrapper {
+    padding: 42px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .active nav {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    background-color: #bc0000;
+    z-index: 2;
+  }
+
+  .active .ul_wrapper {
+    padding: 16px 20px;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .active .header_li {
+    text-align: center;
+  }
+}

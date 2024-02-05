@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Jockey One';
+}
+
+a{
+  text-decoration: none;
+}
+
+li, ul{
+  list-style: none;
+  font-family: 'Jockey One';
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
